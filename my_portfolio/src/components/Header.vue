@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <nav class="flex justify-center gap-10">
+        <nav class="flex justify-evenly gap-10 text-xl font-semibold">
             <a href="" class="text-[white]">Portfo<span class="text-[yellow]">lio</span></a>
             <ul class="flex gap-10">
                 <li><a href="/Home">Home</a></li>

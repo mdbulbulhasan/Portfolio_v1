@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-background': "url('@/assets/Images/background.jpg')", // Adjust the path to your image
+      },
+    },
   },
   plugins: [],
 }
